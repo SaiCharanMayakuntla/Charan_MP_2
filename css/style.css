@@ -1,0 +1,325 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #6F6AF7;
+    padding: 15px;
+    margin: 10px;
+}
+
+.navbar .logo {
+    font-family: 'Delius Unicase',cursive;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.navbar .navlist {
+    display: flex;
+    justify-content:space-between;
+    gap:10vh;
+    flex-direction: row;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'DM Sans',sans-serif;
+}
+
+nav .search-box {
+    padding-top: 15px;
+    font-size: large;
+    height: 35px;
+    width: 300px;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    color: #9F9F9F;
+    border: solid black;
+    background-color: #FFFFFF;
+    border-radius: 63px;    
+}
+
+.search-box input {
+    text-align: left;
+    font-size: large;
+    border: none;
+    color: #9F9F9F;
+}
+
+.search-box img {
+    height: 17px;
+    width: 30px;
+}
+
+.info img {
+    height: 40px;
+    width: 40px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    /* border: 1px solid red; */
+    height: 50vh;
+    width: 93vw;
+    gap: 50px;
+}
+
+.container1 .box1 {
+    display: flex;
+    flex-direction: row;
+    /* padding: 40px; */
+    /* border: solid; */
+    height: 40vh;
+    width: 20vw;
+    border-radius:20px;
+}
+
+.container1 .box1 img {
+    height: 51vh;
+    width: 70vh;
+}
+
+.container1 .box2 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    border: 6px solid #FFFFFF;
+    height: 50vh;
+    width: 87vw;
+    border-radius:20px;
+    background-color: #E5D8FF;
+    color: #6F7373;
+    font-family:'DM Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 51.82px;
+    text-align: left;
+}
+
+.container1 .box3 {
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    /* position: sticky; */
+    padding: 10px;
+    height: 300px;
+    width: 90px;
+    border-radius:20px;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.container1 .box3 .box3a {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    width: 60px;
+    border: 3px solid black;
+    border-radius:11px ;
+}
+
+.container1 .box3 .box3b {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    width: 60px;
+    border: 3px solid black;
+    border-radius:11px ;
+}
+
+.container1 .box3 .box3c {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    width: 60px;
+    border: 3px solid black;
+    border-radius:11px ;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    gap: 50px;
+    height: 25vh;
+    width: 93vw;
+}
+
+.container2 .box1 {
+    height: 18vh;
+    width: 18vw;
+    background-color: #929DFF;
+    border-radius: 11px;
+    padding: 5px;
+    color: #FFFFFF;
+    font-family: 'DM Sans', sans-serif;
+    text-align: left;
+    font-size: x-large;
+            
+}
+
+.container2 .box2 {
+    height: 18vh;
+    width: 18vw;
+    background-color: #734CF2;    ;
+    border-radius: 11px;
+    padding: 5px;
+    color: #FFFFFF;
+    font-family: 'DM Sans', sans-serif;
+    text-align: left;
+    font-size: x-large;
+    letter-spacing: 1px;
+}
+
+.container2 .box3 {
+    height: 18vh;
+    width: 18vw;
+    background-color: #D288FF;
+    border-radius: 11px;
+    padding: 5px;
+    color: #FFFFFF;
+    font-family: 'DM Sans', sans-serif;
+    text-align: left;
+    font-size: x-large;
+    letter-spacing: 1px;
+}
+
+.container2 .box4 {
+    height: 18vh;
+    width: 17vw;
+    background-color: #000000;
+    border-radius: 11px;
+    padding: 5px;
+    color: #FFFFFF;
+    font-family: 'DM Sans', sans-serif;
+    text-align: left;
+    font-size: x-large;
+    letter-spacing: 1px;
+    
+}
+
+.container2 .box5 img {
+    position: fixed;
+    height: 120px;
+    width: 120px;
+    size: 80px;
+}
+
+.bigcontainer {
+    padding: 40px;
+    gap: 50px;
+    height: 70vh;
+    width: 93vw;
+    align-items: center;
+}
+
+.bigcontainer .bigcontainer2 {   
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    width: 80vw;
+    border-radius: 21px;
+    background-color: #483EFF;
+    padding: 30px;
+}
+
+.bigcontainer .bigcontainer2 .leftside {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 30vw;
+    gap: 40px;
+}
+
+.bigcontainer .bigcontainer2 .leftside .box1 {
+    height: 15vh;
+    width: 25vw;
+    border: 5px solid #BCE0F6;
+    background-color: #BCE0F6;
+    border-radius: 22px;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: x-large;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+
+.bigcontainer .bigcontainer2 .leftside .box2 {
+    height: 15vh;
+    width: 25vw;
+    border-radius: 22px;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: x-large;
+    padding: 10px;
+    color: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    letter-spacing: 3px;
+}
+
+.bigcontainer .bigcontainer2 .leftside .box3 {
+    height: 15vh;
+    width: 25vw;
+    border-radius: 22px;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: x-large;
+    padding: 10px;
+    color: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    letter-spacing: 3px;
+}
+
+.bigcontainer .bigcontainer2 .rightside {
+    height: 60vh;
+    width: 50vw;
+    border: 3px solid #FFFFFF;
+}
+
+.bigcontainer .rightside {
+    background-color: #FFFFFF;
+    border-radius: 19px;
+}
+
+.bigcontainer .rightside .singlebox {
+    padding: 30px;
+}
+
+.bigcontainer .rightside .singlebox h1 {
+    font-size: 37px;
+    font-family: 'inter',sans-serif;
+    color: #04285A;
+    letter-spacing: 3px;
+}
+
+.bigcontainer .rightside .singlebox p {
+    font-size: 25px;
+    font-family: 'Roboto',sans-serif;
+    color: #04285A;
+    letter-spacing: 2px;
+}
+
+.bigcontainer .rightside .singlebox button {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: xx-large;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    left: 35vw;
+    border-radius: 9px;
+}
+
